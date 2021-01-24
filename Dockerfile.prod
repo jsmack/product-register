@@ -14,5 +14,7 @@ RUN bundle install
 
 # Current file and directory from local to container
 COPY . .
+
+# Start rails
 CMD [ "rails", "s" ]
 
